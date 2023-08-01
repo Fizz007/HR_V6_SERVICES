@@ -1,0 +1,163 @@
+/****************************
+CSS RESET
+*****************************/
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/****************************
+Element Styles
+*****************************/
+
+body {
+  background-color: #e8eaee;
+}
+
+/****************************
+Main styles of the page
+*****************************/
+
+.main-content {
+  margin-top: 50px;
+  width: 100vw;
+  height: calc(100vh-50px);
+}
+
+/****************************
+ Items Container Styles
+*****************************/
+
+.item-container {
+  background-color: #ffffff;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+.items {
+  background-color: #ffffff;
+  width: 300px;
+  height: 450px;
+}
+
+.items img {
+  border-radius: 20px;
+}
+
+.items p {
+  background-color: inherit;
+  color: #000000;
+  font-size: 24px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.user-content {
+  display: flex;
+  justify-content: center;
+}
+
+/****************************
+ Pagination Styles
+*****************************/
+
+.pagination {
+  background-color: inherit;
+  text-align: center;
+  margin-top: 70px;
+}
+
+.pagination button {
+  background-color: #ffffff;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 10px 40px;
+}
+
+.pages {
+  cursor: default;
+  margin: 0 20px;
+  font-weight: 500;
+}
+
+#main-page {
+  display: inline-block;
+  background-color: #e8eaee;
+  border-bottom: 5px solid rgb(255, 118, 118);
+  margin: auto 0;
+  height: 30px;
+  width: 30px;
+}
+
+/****************************
+ Login Styles
+*****************************/
+
+.login {
+  color: #000000;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  width: 70vw;
+}
+
+.login span {
+  margin-top: 10px;
+  font-weight: 500;
+  text-decoration: underline;
+}
+
+.login-button {
+  background-color: #000000;
+  border: none;
+  border-radius: 15px;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 16px;
+  height: 50px;
+  width: 10%;
+}
+
+.login-button:hover,
+#searchbar-button:hover,
+.pagination button:hover {
+  transform: scale(1.1);
+  transition: all 0.2s ease-in-out;
+}
+
+.login-message {
+  width: 500px;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+  margin: 0 auto;
+}
+
+/****************************
+ Spinner Styles
+*****************************/
+
+.spinner {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/****************************
+ Error Message Styles
+*****************************/
+
+
+/* modal.css */
+.ReactModal__Content {
+  width: 32%;
+  height: 56%; 
+  transform: translate(90%, 25%); 
+}
+
