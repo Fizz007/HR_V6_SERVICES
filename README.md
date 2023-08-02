@@ -55,6 +55,9 @@ npm run start
 - Express.js
 - MongoDB
 
+### Screenshot of Project
+
+![Alt Text](https://github.com/Fizz007/HR_V6_SERVICES/issues/1#issue-1833596077)
 
 
 
