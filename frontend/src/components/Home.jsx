@@ -50,7 +50,7 @@ const Home = () => {
           <div className="item-container">
             {paginatedData &&
               paginatedData.map((item, index) => {
-                return <Items item={item} data={data} index={index}/>;
+                return <Items item={item} data={data} index={index} key={index}/>;
               })}
           </div>
         )}
