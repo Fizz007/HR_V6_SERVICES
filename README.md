@@ -57,7 +57,7 @@ npm run start
 
 ### Screenshot of Project
 
-![Alt Text](https://github.com/Fizz007/HR_V6_SERVICES/issues/1#issue-1833596077)
+![Screenshot 2023-08-02 224045](https://github.com/Fizz007/HR_V6_SERVICES/assets/114504997/70ca0858-8b01-4e80-8578-4eb1fc6a5d64)
 
 
 
