@@ -4,14 +4,13 @@ import Loader from "./Loader";
 import SignIn from "./Signin";
 import { auth } from "../firebase";
 import { useAuthState } from "react-firebase-hooks/auth";
+import { baseUrl } from "../BaseUrl/Baseurl";
 
 
 const PAGE_SIZE = 3;
 
 const Home = () => {
   const [data, setData] = useState([]);
-  const searchQueryRef = useRef("");
-  const [timer, setTimer] = useState();
   const [page, setPage] = useState(1);
   const [paginatedData, setPaginatedData] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
@@ -19,7 +18,7 @@ const Home = () => {
 
   const getImage = async () => {
     try {
-      const res = await fetch(`http://localhost:5800/images`);
+      const res = await fetch(`${baseUrl}/images`);
       const data = await res.json();
       //   console.log(data.Image);
       setData(data.Image);
