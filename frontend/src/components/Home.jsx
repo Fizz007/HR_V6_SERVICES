@@ -80,7 +80,7 @@ const Home = () => {
       </section>
        ) : (
         <div className="login-message">
-          To access the search you are required to Login!
+          To access the images you are required to Login through Gmail!
         </div>
       )}
     </div>
